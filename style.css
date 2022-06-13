@@ -1,3 +1,19 @@
-.text-block {
-    background-color: rgb(41, 97, 97);
-}
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+    }
+    @font-face {
+        font-family: 'Roboto';
+        src: url("assets/fonts/RobotoRegular.ttf");
+        font-weight: 300;
+    }
+    body {font-family: 'Roboto';
+    }
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
