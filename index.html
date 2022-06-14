@@ -1,67 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
-    <title>cv</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="assets/chocolate_chip_chips_food_cookies_biscuit_icon_207973.ico">
+	<title>CV Dmitry Fomkin</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Courses</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Education </a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">English </a></li>
-            </ul>
-            </nav>
-        </div>
+	<header>
+		<div class="container__header">
+		<nav class="header-nav"></nav>
+		<ul class="header-list">
+			<li class="header-items"><a href="#contacts">Contacts</a></li>
+			<li class="header-items"><a href="#skills">Skills</a></li>
+			<li class="header-items"><a href="#code">Code</a></li>
+			<li class="header-items"><a href="#expirience">Expirience</a></li>
+			<li class="header-items"><a href="#projects">Projects</a></li>
+			<li class="header-items"><a href="#education">Education</a></li>
+			<li class="header-items"><a href="#english">English</a></li>
+		</ul>
+		</div>
     </header>
-
-    <main class="main">
-        <div class="container">
-            <section class=".section" id="profile">
-                <h1>Dmitry Fomkin</h1>
-                <img src="./assets/img/avatar.jpg" alt="avatar">
-            </section>
-
-            <section class=".section" id="contacts">
-                <h2>contacts</h2>
-            </section>
-
-            <section class=".section" id="skills">
-                <h2>summary</h2>
-            </section>
-
-            <section class=".section" id="skills">
-                <h2>skills</h2> 
-            </section>
-
-            <section class=".section" id="courses"> 
-                <h2>courses</h2>
-            </section>
-
-            <section class=".section" id="education"> 
-                <h2>education</h2>
-            </section>
-            
-            <section class=".section" id="languages">
-                <h2>languages</h2>
-            </section>
-        </div>
-    </main>
-
-    <footer class="main">
-        <div class="container"></div>
-    </footer>
+<div id="doc2" class="yui-t7">
+	<div id="inner">
+		
+		<div id="hd">
+			<div class="yui-gc">
+				<div class="yui-u first">
+					<h1>Dmitry Fomkin</h1>
+					<h2>junior front-end web-developer</h2>
+				</div>
+                
+				<div class="yui-u">
+					<div class="my-pohoto">
+						<img src="my-pohoto.jpg" alt="my-pohoto" style=" width: 180px;  border-radius: 100px">
+					</div><!--// .contact-info -->
+				</div>
+			</div><!--// .yui-gc -->
+		</div><!--// hd -->
+		<div id="bd">
+			<div id="yui-main">
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2 id="contacts">Contacts</h2>
+						</div>
+						<div class="yui-u">
+							<ul>
+								<li><span class="text">Russia, Moscow</span></li>
+								<li><span class="text">+965 388 666 57</span></li>
+								<li><span class="text">fmkdima@outlook.com</span></li>
+						</ul>
+						</div>
+					</div><!--// .yui-gf -->
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2 id="skills">Skills</h2>
+						</div>
+						<div class="yui-u">
+								<div class="talent">
+									<h2>Web Design</h2>
+									<p>Assertively exploit wireless initiatives rather than synergistic core competencies.	</p>
+								</div>
+								<div class="talent">
+									<h2>Interface Design</h2>
+									<p>Credibly streamline mission-critical value with multifunctional functionalities.	 </p>
+								</div>
+								<div class="talent">
+									<h2>Project Direction</h2>
+									<p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
+								</div>
+						</div>
+					</div><!--// .yui-gf -->
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2 id="code">Code</h2>
+						</div>
+						<div class="yui-u">
+							<ul class="talent">
+								<li>XHTML</li>
+								<li>CSS</li>
+								<li class="last">Javascript</li>
+							</ul>
+							<code>
+                                const isIsogram = (str) => {
+                                    let word = str.toLowerCase();
+                                    return new Set(word).size === str.length;
+                                }
+                            </code>
+						</div>
+					</div><!--// .yui-gf-->
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2 id="expirience">Expirience</h2>
+						</div><!--// .yui-u -->
+						<div class="yui-u">
+							<div class="job">
+								<h2>Facebook</h2>
+								<h3>junior Interface Designer</h3>
+								<h1>2015-20022</h1>
+								<p>Intrinsicly enable optimal core competencies through corporate relationships. Phosfluorescently implement worldwide vortals and client-focused imperatives. Conveniently initiate virtual paradigms and top-line convergence. </p>
+							</div>
+						</div><!--// .yui-u -->
+					</div><!--// .yui-gf -->
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2 id="projects">Projects</h2>
+						</div>
+						<div class="yui-u">
+							<ul>
+								<li><a href="https://github.com/kornyks/rsschool-cv.git">My CV</a></li>
+							</ul>
+						</div>
+					</div><!--// .yui-gf -->
+					<div class="yui-gf last">
+						<div class="yui-u first">
+							<h2 id="education">Education</h2>
+						</div>
+						<div class="yui-u">
+							<ul>
+								<li><strong>University:</strong> Moscov Technical University, Technologist</li>
+								<li><strong>Courses:</strong> RsSchool
+								</li>
+								</ul>
+						</div>
+					</div><!--// .yui-gf -->
+							<div class="yui-b">
+								<div class="yui-gf">
+									<div class="yui-u first">
+										<h2 id="english">English</h2>
+									</div>
+									<div class="yui-u">
+										<p class="enlarge">
+											<p>
+												Pre-Intermediate – А2
+											</p>
+									</div>
+								</div><!--// .yui-gf -->
+				</div><!--// .yui-b -->
+			</div><!--// yui-main -->
+		</div><!--// bd -->
+		<footer class="cv-footer">
+            <div class="cv-footer__container container">
+                <div class="cv-footer__content">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="RS SCHOOL logo" class="cv-footer__label">
+                    <a href="https://rs.school/js/" target="_blank" class="cv-footer__link"> JS/FE Pre-School 2022Q2
+                    </a>
+                    <a href="https://github.com/kornyks" target="_blank" class="cv-footer__link"> GitHub </a>
+                    <p class="cv-footer__copywriting">
+                        &copy; Dmitry Fomkin 2022
+                    </p>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
