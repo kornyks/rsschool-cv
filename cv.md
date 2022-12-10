@@ -2,7 +2,7 @@
 Fomkin Dmitry
 
 Contacts for
-email - fmkdima@gmail.com
+Email - fmkdima@gmail.com
 
 A few words about myself:
 I'm learning JavaScript/Front-end. A great desire to develop in this direction, since programming will give me the opportunity to further implement my projects in the form that I imagine them to be. I use practical teaching methods. I bring the work to its logical conclusion, when I am sure that I gave 100% (without excessive fanaticism).
